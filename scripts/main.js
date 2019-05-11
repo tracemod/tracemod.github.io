@@ -3,7 +3,7 @@ var myImage = document.querySelector('img');
 myImage.onclick = function() {
 	var mySrc = myImage.getAttribute('src');
 	if (mySrc === 'images/just5_logo_orange_rgb.jpg')
-		myImage.setAttribute('src', 'images/iva.jpg');
+		myImage.setAttribute('src', 'images/tabby-cat-sleeping-bob-gibbonsscience-photo-library.jpg');
 	else
 		myImage.setAttribute('src', 'images/just5_logo_orange_rgb.jpg');
 }

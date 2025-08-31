@@ -18,7 +18,7 @@ p, li {
 p {
 	text-indent: 5ch;
 }
-li, a {
+li, #ref {
 	text-indent: 0;
 }
 body{

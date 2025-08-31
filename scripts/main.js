@@ -31,10 +31,13 @@ function setUserName() {
 
 if (!localStorage.getItem('name'))
 	setUserName();
-else {
+else if (name != '') {
 	var storedName = localStorage.getItem('name');
-	myHeading.innerHTML = 'Hello, ' + storedName;
+	myHeading.innerHTML = 'Hello, ' + storedName + ' !';
 }
+else 
+	myHeading.innerHTML = 'Hello!';
+
 
 myButton.onclick = function() { 
 	setUserName();

@@ -15,6 +15,9 @@ p, li {
 	line-height: 2;
 	letter-spacing: 1px;
 }
+p {
+	text-indent: 3ch;
+}
 body{
 	width: 640px;
 	margin:	0 auto;

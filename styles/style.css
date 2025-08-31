@@ -14,7 +14,7 @@ p, li {
 	font-size: 16px;
 	line-height: 2;
 	letter-spacing: 1px;
-	text-indent: 3ch;
+	text-indent: 3em;
 }
 body{
 	width: 640px;

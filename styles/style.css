@@ -10,14 +10,17 @@ h1 {
 	color: #DE060A;
 	text-shadow: 3px 4px 1px black; /* горизонтальне зміщення, вертикальне зміщення, радіус розмиття, колір темряви */
 }
-p, li {
+h2 {
+	text-align: center;
+}
+p, ul {
 	font-size: 16px;
 	line-height: 2;
-	letter-spacing: 1px;		
-}
-p {
+	letter-spacing: 1px;
 	text-indent: 5ch;
+	margin: auto;
 }
+
 li, #ref {
 	text-indent: 0;
 }
@@ -32,7 +35,8 @@ img{
 	display: block;
 	margin: 0 auto;
 	height: 350px;
-}.parent {	
+}
+.parent {	
 	display: flex;
 	justify-content: center;
 	/* border: 2px solid blue; */
